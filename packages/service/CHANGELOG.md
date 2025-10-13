@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/scotthill84380scotthill/mimir-wallet/compare/service-v2.31.0...service-v3.0.0) (2025-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/scotthill84380scotthill/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/scotthill84380scotthill/mimir-wallet/issues/181)) ([48c4e25](https://github.com/scotthill84380scotthill/mimir-wallet/commit/48c4e25c43f1ae5f65c9a20c380ae7dd3a1aae65))
+* Add cross-chain calldata display component ([#291](https://github.com/scotthill84380scotthill/mimir-wallet/issues/291)) ([d87bf48](https://github.com/scotthill84380scotthill/mimir-wallet/commit/d87bf48271bdcf5ad0c354b7f8391ba7a224f371))
+* Add dry run API support for transaction simulation ([#207](https://github.com/scotthill84380scotthill/mimir-wallet/issues/207)) ([9185c78](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9185c7806c4d1e4c338a48930e4e1e90f7b2edb8))
+* Add notification center feature ([#282](https://github.com/scotthill84380scotthill/mimir-wallet/issues/282)) ([9892fe0](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9892fe0326eb752ca29b9b1c2e67e89448b55621))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/scotthill84380scotthill/mimir-wallet/issues/171)) ([9aaf50b](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9aaf50b5c7ede8f43835f66824248ae7a53a2926))
+* Add remote proxy support ([#236](https://github.com/scotthill84380scotthill/mimir-wallet/issues/236)) ([4ee0b25](https://github.com/scotthill84380scotthill/mimir-wallet/commit/4ee0b2503a9680b219aeb83d3d1e096edc698f82))
+* add transaction subscription functionality ([#213](https://github.com/scotthill84380scotthill/mimir-wallet/issues/213)) ([9e67bed](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9e67bedd6ed49b15107786cbdd8e802330337c73))
+* Add zkVerify testnet supported ([#251](https://github.com/scotthill84380scotthill/mimir-wallet/issues/251)) ([931051f](https://github.com/scotthill84380scotthill/mimir-wallet/commit/931051f39afcc7f5240c46ee1327e2e748aaf369))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/scotthill84380scotthill/mimir-wallet/issues/198)) ([fa62528](https://github.com/scotthill84380scotthill/mimir-wallet/commit/fa6252881203588dbffb751df706b1cba4deb5b2))
+* Improve UI display and user experience ([#218](https://github.com/scotthill84380scotthill/mimir-wallet/issues/218)) ([8cd36f6](https://github.com/scotthill84380scotthill/mimir-wallet/commit/8cd36f611e11588c68f71291ef807fbac73a9588))
+* Optimize balance retrieval logic ([#311](https://github.com/scotthill84380scotthill/mimir-wallet/issues/311)) ([47efc5a](https://github.com/scotthill84380scotthill/mimir-wallet/commit/47efc5a9a35846b2e0e4dfe1e71049062367724d))
+* remove assethub next westend network ([#232](https://github.com/scotthill84380scotthill/mimir-wallet/issues/232)) ([93ef2aa](https://github.com/scotthill84380scotthill/mimir-wallet/commit/93ef2aa08835a6eee61d81bd391d80798fc46df8))
+* remove batch restore functionality ([#204](https://github.com/scotthill84380scotthill/mimir-wallet/issues/204)) ([f61c9ca](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f61c9ca4475917f3917ec8372f0441ad51e2d49a))
+* subscribe wallet accounts changed ([#176](https://github.com/scotthill84380scotthill/mimir-wallet/issues/176)) ([3527709](https://github.com/scotthill84380scotthill/mimir-wallet/commit/3527709cfd63cbfd7ee724aa24d20eb4ee816ec8))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/scotthill84380scotthill/mimir-wallet/issues/261)) ([ac1ffb9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/ac1ffb9bfa9be0d0da7a9cc16f42dca3a8f139b4))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/scotthill84380scotthill/mimir-wallet/issues/267)) ([909ba7a](https://github.com/scotthill84380scotthill/mimir-wallet/commit/909ba7a78c064cb48dbfbe67307d5d236981607d))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.30.0...service-v2.31.0) (2025-10-08)
 
 

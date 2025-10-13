@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.0.0](https://github.com/scotthill84380scotthill/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-13)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/scotthill84380scotthill/mimir-wallet/issues/323)) ([e8d558e](https://github.com/scotthill84380scotthill/mimir-wallet/commit/e8d558e1904d13690bfc18690485a13b7d63d752))
+* Add astar network support ([#230](https://github.com/scotthill84380scotthill/mimir-wallet/issues/230)) ([7246ccb](https://github.com/scotthill84380scotthill/mimir-wallet/commit/7246ccbbfc5508db5ffdf0d21ff4bcfa81137820))
+* Add cross-chain calldata display component ([#291](https://github.com/scotthill84380scotthill/mimir-wallet/issues/291)) ([d87bf48](https://github.com/scotthill84380scotthill/mimir-wallet/commit/d87bf48271bdcf5ad0c354b7f8391ba7a224f371))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/scotthill84380scotthill/mimir-wallet/issues/285)) ([80bb0e9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/80bb0e91ecfca958c1857a75f9d3301558143d38))
+* Add dry run API support for transaction simulation ([#207](https://github.com/scotthill84380scotthill/mimir-wallet/issues/207)) ([9185c78](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9185c7806c4d1e4c338a48930e4e1e90f7b2edb8))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/scotthill84380scotthill/mimir-wallet/issues/309)) ([c00544a](https://github.com/scotthill84380scotthill/mimir-wallet/commit/c00544a3db750a4067d7991c062ad64610fb3399))
+* Add notification center feature ([#282](https://github.com/scotthill84380scotthill/mimir-wallet/issues/282)) ([9892fe0](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9892fe0326eb752ca29b9b1c2e67e89448b55621))
+* Add PAssetHub network support ([#239](https://github.com/scotthill84380scotthill/mimir-wallet/issues/239)) ([fa1dec5](https://github.com/scotthill84380scotthill/mimir-wallet/commit/fa1dec5b957937253ab7c1d3c2a8747fa3e0c216))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/scotthill84380scotthill/mimir-wallet/issues/321)) ([97991e8](https://github.com/scotthill84380scotthill/mimir-wallet/commit/97991e8fc42a94fb8662b2a1b27511e1f1926356))
+* Add remote proxy support ([#236](https://github.com/scotthill84380scotthill/mimir-wallet/issues/236)) ([4ee0b25](https://github.com/scotthill84380scotthill/mimir-wallet/commit/4ee0b2503a9680b219aeb83d3d1e096edc698f82))
+* Add walletconnect in dapp page ([#217](https://github.com/scotthill84380scotthill/mimir-wallet/issues/217)) ([0a72dd3](https://github.com/scotthill84380scotthill/mimir-wallet/commit/0a72dd3976f525b0422c4d57db89d6b8bc2447d0))
+* Add xcavate network support ([#237](https://github.com/scotthill84380scotthill/mimir-wallet/issues/237)) ([3ef8d8c](https://github.com/scotthill84380scotthill/mimir-wallet/commit/3ef8d8c29f748875500cfec19aafbab475a115a3))
+* Add zkverify mainnet support ([#312](https://github.com/scotthill84380scotthill/mimir-wallet/issues/312)) ([7fbc113](https://github.com/scotthill84380scotthill/mimir-wallet/commit/7fbc113db1144c1e82438b96f61f5e37501c3954))
+* Add zkVerify testnet supported ([#251](https://github.com/scotthill84380scotthill/mimir-wallet/issues/251)) ([931051f](https://github.com/scotthill84380scotthill/mimir-wallet/commit/931051f39afcc7f5240c46ee1327e2e748aaf369))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/scotthill84380scotthill/mimir-wallet/issues/254)) ([b2b7307](https://github.com/scotthill84380scotthill/mimir-wallet/commit/b2b7307279a5ad8f775580e917ec14712b7915a7))
+* Improve UI display and user experience ([#218](https://github.com/scotthill84380scotthill/mimir-wallet/issues/218)) ([8cd36f6](https://github.com/scotthill84380scotthill/mimir-wallet/commit/8cd36f611e11588c68f71291ef807fbac73a9588))
+* Optimize balance retrieval logic ([#311](https://github.com/scotthill84380scotthill/mimir-wallet/issues/311)) ([47efc5a](https://github.com/scotthill84380scotthill/mimir-wallet/commit/47efc5a9a35846b2e0e4dfe1e71049062367724d))
+* optimize rpc connection and improve network stability ([#193](https://github.com/scotthill84380scotthill/mimir-wallet/issues/193)) ([9147ac7](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9147ac70e49cf3d7880e3a2364912d2958a70ae3))
+* remove assethub next westend network ([#232](https://github.com/scotthill84380scotthill/mimir-wallet/issues/232)) ([93ef2aa](https://github.com/scotthill84380scotthill/mimir-wallet/commit/93ef2aa08835a6eee61d81bd391d80798fc46df8))
+* subscribe wallet accounts changed ([#176](https://github.com/scotthill84380scotthill/mimir-wallet/issues/176)) ([3527709](https://github.com/scotthill84380scotthill/mimir-wallet/commit/3527709cfd63cbfd7ee724aa24d20eb4ee816ec8))
+* Support eth address transfer on westend ([#234](https://github.com/scotthill84380scotthill/mimir-wallet/issues/234)) ([9598a66](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9598a66ae11cce492a81d95362580dbe49e1cfd8))
+* support eth address trasfer on westend assethub ([#224](https://github.com/scotthill84380scotthill/mimir-wallet/issues/224)) ([3ce4283](https://github.com/scotthill84380scotthill/mimir-wallet/commit/3ce4283015aa4b555a46dbb65254f592f838aafc))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/scotthill84380scotthill/mimir-wallet/issues/261)) ([ac1ffb9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/ac1ffb9bfa9be0d0da7a9cc16f42dca3a8f139b4))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/scotthill84380scotthill/mimir-wallet/issues/268)) ([f8ebaea](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f8ebaeabd7f4947542c23272ddfb65b2fe14e67a))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/scotthill84380scotthill/mimir-wallet/issues/267)) ([909ba7a](https://github.com/scotthill84380scotthill/mimir-wallet/commit/909ba7a78c064cb48dbfbe67307d5d236981607d))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/scotthill84380scotthill/mimir-wallet/issues/247)) ([4afbbdb](https://github.com/scotthill84380scotthill/mimir-wallet/commit/4afbbdb9dd422ab1b5a62cc0a9650f1c03dcdb12))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/scotthill84380scotthill/mimir-wallet/issues/178)) ([74ac12b](https://github.com/scotthill84380scotthill/mimir-wallet/commit/74ac12be87349d440dd287fa666aceae2ac5358e))
+* Fix some issues while connect wallet ([#220](https://github.com/scotthill84380scotthill/mimir-wallet/issues/220)) ([59ab148](https://github.com/scotthill84380scotthill/mimir-wallet/commit/59ab148f4c99e286f95c8c2472cbaa76a070c713))
+* improve user experience and fix bugs ([#222](https://github.com/scotthill84380scotthill/mimir-wallet/issues/222)) ([462a3a2](https://github.com/scotthill84380scotthill/mimir-wallet/commit/462a3a2ad1e34b012eceae850b42c1cdb3a96d0d))
+* optimize balance fetching performance ([#228](https://github.com/scotthill84380scotthill/mimir-wallet/issues/228)) ([53b1edc](https://github.com/scotthill84380scotthill/mimir-wallet/commit/53b1edc5ed975cf74bb277fd5cfe9e127b885dd1))
+* optimize user experience and fix some bugs ([#226](https://github.com/scotthill84380scotthill/mimir-wallet/issues/226)) ([de4ab79](https://github.com/scotthill84380scotthill/mimir-wallet/commit/de4ab79ec89759f6d77267909832291e01c6dece))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 

@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/scotthill84380scotthill/mimir-wallet/compare/ui-v2.31.0...ui-v3.0.0) (2025-10-13)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/scotthill84380scotthill/mimir-wallet/issues/319)) ([1fae3ff](https://github.com/scotthill84380scotthill/mimir-wallet/commit/1fae3ffdafc1c7f83bc75cacb36bcd079f80b0f5))
+* Add cross-chain calldata display component ([#291](https://github.com/scotthill84380scotthill/mimir-wallet/issues/291)) ([d87bf48](https://github.com/scotthill84380scotthill/mimir-wallet/commit/d87bf48271bdcf5ad0c354b7f8391ba7a224f371))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/scotthill84380scotthill/mimir-wallet/issues/285)) ([80bb0e9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/80bb0e91ecfca958c1857a75f9d3301558143d38))
+* Add dry run API support for transaction simulation ([#207](https://github.com/scotthill84380scotthill/mimir-wallet/issues/207)) ([9185c78](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9185c7806c4d1e4c338a48930e4e1e90f7b2edb8))
+* add global account search and refactor UI components ([#167](https://github.com/scotthill84380scotthill/mimir-wallet/issues/167)) ([b4124d8](https://github.com/scotthill84380scotthill/mimir-wallet/commit/b4124d82c3a145fd1a85e8f02fe021ad53adc186))
+* Add notification center feature ([#282](https://github.com/scotthill84380scotthill/mimir-wallet/issues/282)) ([9892fe0](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9892fe0326eb752ca29b9b1c2e67e89448b55621))
+* add permission check when submit transaction ([#164](https://github.com/scotthill84380scotthill/mimir-wallet/issues/164)) ([f3e55ee](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f3e55eefdcef285fff333ba8d124b4bb0a8beae9))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/scotthill84380scotthill/mimir-wallet/issues/171)) ([9aaf50b](https://github.com/scotthill84380scotthill/mimir-wallet/commit/9aaf50b5c7ede8f43835f66824248ae7a53a2926))
+* Add sonner to replace react-toastify ([#280](https://github.com/scotthill84380scotthill/mimir-wallet/issues/280)) ([fd59f27](https://github.com/scotthill84380scotthill/mimir-wallet/commit/fd59f27b4be7e5287cca6463e14af137f5dad45f))
+* add template detail view functionality ([#174](https://github.com/scotthill84380scotthill/mimir-wallet/issues/174)) ([f046e35](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f046e357ee0ab5ee2a60eb07d7a65238ad1f17b0))
+* Add zkVerify testnet supported ([#251](https://github.com/scotthill84380scotthill/mimir-wallet/issues/251)) ([931051f](https://github.com/scotthill84380scotthill/mimir-wallet/commit/931051f39afcc7f5240c46ee1327e2e748aaf369))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/scotthill84380scotthill/mimir-wallet/issues/215)) ([a0ee074](https://github.com/scotthill84380scotthill/mimir-wallet/commit/a0ee07486cab44aea8bd9b09cc7d1ab05a3df7b5))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/scotthill84380scotthill/mimir-wallet/issues/254)) ([b2b7307](https://github.com/scotthill84380scotthill/mimir-wallet/commit/b2b7307279a5ad8f775580e917ec14712b7915a7))
+* implement AssetHub migration support ([#259](https://github.com/scotthill84380scotthill/mimir-wallet/issues/259)) ([f25a3f4](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f25a3f44e2fd6e7f470fe7b7d38838b8b39bfe14))
+* Improve UI display and user experience ([#218](https://github.com/scotthill84380scotthill/mimir-wallet/issues/218)) ([8cd36f6](https://github.com/scotthill84380scotthill/mimir-wallet/commit/8cd36f611e11588c68f71291ef807fbac73a9588))
+* migrate some ui components to shadcn ([#278](https://github.com/scotthill84380scotthill/mimir-wallet/issues/278)) ([15f3b95](https://github.com/scotthill84380scotthill/mimir-wallet/commit/15f3b955c1520437e4fb13d83d5fd3f1e8d217e4))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/scotthill84380scotthill/mimir-wallet/issues/270)) ([d4493d3](https://github.com/scotthill84380scotthill/mimir-wallet/commit/d4493d39495f475cf46044ee7ca90354abc04824))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/scotthill84380scotthill/mimir-wallet/issues/293)) ([6286629](https://github.com/scotthill84380scotthill/mimir-wallet/commit/6286629a3fd2a3802e45d2075f8ba5a98265c767))
+* remove assethub next westend network ([#232](https://github.com/scotthill84380scotthill/mimir-wallet/issues/232)) ([93ef2aa](https://github.com/scotthill84380scotthill/mimir-wallet/commit/93ef2aa08835a6eee61d81bd391d80798fc46df8))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/scotthill84380scotthill/mimir-wallet/issues/162)) ([0113116](https://github.com/scotthill84380scotthill/mimir-wallet/commit/01131169b131b2071a9ce022333cabf71d8bf727))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/scotthill84380scotthill/mimir-wallet/issues/261)) ([ac1ffb9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/ac1ffb9bfa9be0d0da7a9cc16f42dca3a8f139b4))
+
+
+### Bug Fixes
+
+* fix some ui issues ([3c85ac9](https://github.com/scotthill84380scotthill/mimir-wallet/commit/3c85ac9145835286b04bb255639db57e39cbd60e))
+* Fix some UI issues ([#257](https://github.com/scotthill84380scotthill/mimir-wallet/issues/257)) ([f0ed950](https://github.com/scotthill84380scotthill/mimir-wallet/commit/f0ed950db088a663cdde58267b57840b745382a8))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/scotthill84380scotthill/mimir-wallet/issues/165)) ([5627ebe](https://github.com/scotthill84380scotthill/mimir-wallet/commit/5627ebeabd3702469f917558a4800846301d03d8))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.30.0...ui-v2.31.0) (2025-10-08)
 
 
